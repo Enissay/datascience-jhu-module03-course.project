@@ -44,9 +44,9 @@ The following files are available for the train and test data. Their description
 - ```train/Inertial Signals/body_gyro_x_train.txt```: The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
 
-## Transformation details
+## Project Requierements
 
-There are 5 parts which hare highlited in the code itself:
+The code is supposed to do the following actions which hare highlited in the code itself:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -54,15 +54,17 @@ There are 5 parts which hare highlited in the code itself:
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## How ```run_analysis.R``` implements the above steps:
+## How the above requirements are implemented in ```run_analysis.R```:
+
+The code proceeds as follows:
 
 * Set the current directory as working directory for the project
 * loads (and downloads them if needed) the necessary libraries ```data.table``` and ```dplyr```
 * Downloads the raw data in zip file to the working directory and unzips it (it skips if either files exists)
 * Load both test and train data to ```testData``` and ```trainData```
 * Renames the columns names then merges both data to ```mergedData```
-* Extract the mean and standard deviation column names and data to ```finalData```
-* Process the data. There are two parts processing test and train data respectively.
+* Removes duplicate columns then extracts the mean and standard deviation column names and data to ```finalData```
+* Process the data:
   * Updates the activity names
   * Labels the data set with descriptive variable names
   * Aggregates results to calculate the average of each variable by activity and by subject and saves it to ```aggregatedData```
