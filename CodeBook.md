@@ -1,11 +1,11 @@
 # CodeBook
 
-This is a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
+This is a code book that describes the variables, the data, and any transformations or work that is performed to clean up the data in this project.
 
 ## The data source
 
-* Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-* Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+* [Original data (zip file)](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+* [Original description of the dataset (website)](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ## Data Set Information
 
