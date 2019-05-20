@@ -61,9 +61,6 @@ testData <- cbind(subjectTest,yTest,xTest)
 
 mergedData <- rbind(trainData,testData)
 
-# # Rename Columns
-# colnames(mergedData) <- c("subject", "activity", features$V2)
-
 
 ### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 # Remove duplicate Column Names (needed for the following select statement)
