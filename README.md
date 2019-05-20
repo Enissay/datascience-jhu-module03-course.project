@@ -1,7 +1,7 @@
 # datascience-jhu-module03-course.project
 Getting and Cleaning Data: Final Course Project
 
-## Course Project
+## Course Project Requirements
 
 You should create an R script called ```run_analysis.R``` which perfoms the following:
 
@@ -14,9 +14,9 @@ You should create an R script called ```run_analysis.R``` which perfoms the foll
 ## Steps to work on this course project
 
 1. Download this code in your working directory and run it in RStudio
-2. It will automatically download the zip file nd unzip it
-3. It will generate a new file ```aggregatedData.txt``` in the same working directory
+2. It will automatically download the zip file and unzip it
+3. It will export the aggregated results to a new file ```aggregatedData.txt``` in the same working directory
 
 ## Dependencies
 
-The code will check and install if needed then load the needed dependencies automatically ```data.table```, ```dplyr```.
+The code will check and install if needed the necessary dependencies ```data.table``` and ```dplyr```, then it loads them automatically.
