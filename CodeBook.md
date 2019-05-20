@@ -54,7 +54,7 @@ The code is supposed to do the following actions which hare highlited in the cod
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## How the above requirements are implemented in ```run_analysis.R```:
+## How the above requirements are implemented in ```run_analysis.R```
 
 The code proceeds as follows:
 
